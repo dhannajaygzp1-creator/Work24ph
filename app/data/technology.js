@@ -79,3 +79,22 @@ const technologyData = {
  
      ]
    };
+
+   export const technologycmsdeveloper = {
+    section: {
+       tag: "Technology",
+       title: "CMS Development",
+       des:"Hire a Dedicated Developer"
+     },
+     icons: [
+       { src: "/uploads/2024/12/stack-icon7.png", alt: "wordpress" },
+       { src: "/uploads/2024/12/codeigniter-icon.png", alt: "PowerShel" },
+       {src:"/uploads/2024/12/stack-icon8.png", alt:"f"},
+       { src: "/uploads/2024/12/stack-icon6-1.png", alt: "vb" },
+       { src: "/uploads/2024/12/magento.svg", alt: "aws" },
+   
+       { src: "/uploads/2024/12/cake-php.png", alt: "nodejs" },
+       { src: "/uploads/2024/12/stack-icon4.png", alt: "python" }
+ 
+     ]
+   };

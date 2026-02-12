@@ -12,6 +12,13 @@ export const whyChooseSectionfullstack = {
     "Websites were the first to stir the buzz of the internet, and they are here to stay for a very long time. Full Stack web application development tags along with a variety of advantages, from faster development time, to being considerably cheaper to develop, and that’s what makes them a top choice for many businesses.",
 };
 
+export const whyChooseSectionfcms = {
+  tag: "We Deliver Our Best",
+  title: "Why Choose Work24",
+  description:
+    "Our unique blend of innovation, flexibility, and personalized support sets us apart. We offer tailored solutions for job seekers and employers, ensuring seamless matches that drive success. With a commitment to excellence, cutting-edge tools, and a human-centered approach, Work24 becomes more than a partner; we’re your catalyst for growth, productivity, and meaningful connections.",
+};
+
 const whyChoose = [
   {
     title: "Reliable Service. In House Team",
@@ -48,6 +55,48 @@ export const ourbest = [
     },
     {
       title: "New world necessity",
+      description:
+        "Apart from being an online portfolio of your business, websites could be an engaging medium for all potential users.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+      delay: ".2s",
+    }, {
+      title: "High performance",
+      description:
+        "Full stack websites can truly outperform generic websites by a huge margin, especially if your niche demands so.",
+      icon: "/uploads/2024/12/androidService4.svg",
+      delay: ".2s",
+    }, {
+      title: "Comprehensive solution",
+      description:
+        "Full stack websites make more of a comprehensive solution, when compared to the websites created generically.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+      delay: ".2s",
+    }, {
+      title: "User satisfaction",
+      description:
+        "Due to their smooth functioning, Full Stack websites have proven to be highly satisfying, for a majority of people.",
+      icon: "/uploads/2024/12/androidService5.svg",
+      delay: ".2s",
+    }, {
+      title: "Cost-effective",
+      description:
+        "Testing and maintenance are both way much cheaper, when it comes to websites that are developed the full stack way.",
+      icon: "/uploads/2024/12/androidService6.svg",
+      delay: ".2s",
+    },
+  ];
+
+
+  export const CMSDevelopment = [
+    {
+      title: "Reliable Service. In House Team",
+      description:
+        "Choose Work24 for reliable service, expert in-house teams, and seamless solutions tailored to your needs.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+      delay: ".2s",
+    },
+    {
+      title: "Trusted by People Like You",
       description:
         "Apart from being an online portfolio of your business, websites could be an engaging medium for all potential users.",
       icon: "/uploads/2024/12/hugePlatform.svg",

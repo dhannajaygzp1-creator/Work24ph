@@ -2,15 +2,16 @@ import React from 'react'
 import Banner from '../web-development-services/WebAppComponents/Banner';
 import { statisticsData } from '@/app/data/Statistics';
 import Statistics from '../web-development-services/WebAppComponents/Statistics';
-import { servicesCMSDevelopment, microsoftservices } from '@/app/data/services';
+import { servicesCMSDevelopment, cmsservices } from '@/app/data/services';
 import ServiceSection from '../web-development-services/WebAppComponents/ServiceSection';
-import { technologyDotNet } from '@/app/data/technology';
+import { technologycmsdeveloper } from '@/app/data/technology';
 import TechnologyUsed from '../components/TechnologyUsed';
 import Services from '../web-development-services/WebAppComponents/Services';
 import FeaturedProjects from '../web-development-services/WebAppComponents/FeaturedProjects';
 import CTASection from '../components/HomeComponent/CTASection';
 import { ClientTestimonial } from '../client-reviews/ClientTestimonial';
-
+import WhyChoose from '../web-development-services/WebAppComponents/WhyChoose';
+import { CMSDevelopment , whyChooseSectionfcms } from '../data/whyChoose';
 
 export const page = () => {
     return (
@@ -24,8 +25,9 @@ export const page = () => {
       />
       <Statistics stats={statisticsData} />
       <ServiceSection data={servicesCMSDevelopment.overview} />
-      <TechnologyUsed data={technologyDotNet} />
-      <Services data={microsoftservices} />
+      <TechnologyUsed data={technologycmsdeveloper} />
+      <Services data={cmsservices} />
+      <WhyChoose data={CMSDevelopment} section={whyChooseSectionfcms} />
       <FeaturedProjects />
       <ClientTestimonial/>
       <CTASection />
