@@ -127,8 +127,57 @@ export const servicesCMSDevelopment = {
   }
 };
 
+export const servicesMEANSTACK = {
+  overview: {
+    tag: "Overview",
+    title: "MEANSTACK DEVELOPMENT SERVICES",
+    image: "/uploads/2024/12/challenges-of-it-staff-augmentation.jpg",
+    description: [
+      "Our dedicated MEAN stack development team will cater to all your business needs to the core by adding value to your web application. Hiring expert MEAN stack developers and consultants will increase your business success rate to an unprecedented level. With cutting edge and flexible technology, our MEAN stack developers provide the much needed edge to your web application. Our MEAN Stack solutions will make your website more productive and trusted among your targeted audience.",
+      "<br>MEAN stack development doesn’t restrict the process of website or application development based on its open-source options for easy frontend or backend development. We have experienced and skilled MEAN stack developers to deal with varying requirements that are set-up essentially to add more value and features to your website. Our resourceful methodologies will decrease the time taken in the product development cycle and give you that extra time to release your product and stay a step ahead of your competitors."      
+    ]
+  }
+};
+
+export const servicesecommerce = {
+  overview: {
+    tag: "Reasons to consider",
+    title: "E-COMMERCE WEBSITE DEVELOPMENT FOR YOUR BUSINESS",
+    image: "/uploads/2024/12/process-4.jpg",
+    description: [
+      "Ecommerce has completely changed the way people shop for the products they need. No one wants to stand in those long lines, at a shopping mall, and wait for their turn for at payment counters. Now, digital stores draw in more buyers today than conventional physical stores. E-stores have changed the ecommerce shopping experience of the buyers, and they are totally enjoying it. Having an e-store for your business results in more users and wide recognition. You can target a wide group of audiences, even from different demography.",
+      "<br>At Raidlayer, we have a separate team of eCommerce web developers, having expertise in eCommerce mobile app development, and eCommerce website development. Our expert eCommerce web developers carry with them an experience of over 15 years. With that kind of experience, they can create engaging and attractive websites for different products and niches. We are known to develop feature-rich websites per your business needs. Our team understands that it is not an easy task to manage an e-store, therefore we strive hard, to provide a robust eCommerce platform to cater to all your requirements."      
+    ]
+  }
+};
 
 
+export const servicesAndroid = {
+  overview: {
+    tag: "Reasons to consider",
+    title: "AN ANDROID APP SOLUTION FOR YOUR BUSINESS",
+    image: "/uploads/2024/12/Andriod-App-Development.webp",
+    description: [
+      'We are Android devices are highly capable at this time, and it’s only going to improve ahead of this. If your business fits the primary needs for having an optimized or scalable mobile app, you should start considering a native Android app.',
+      '<br><br>The massive success of Android can be highly contributed to Google, Android has grown from nothing to being the most used mobile OS in less than a decade. Same goes with the Android app developers, without their support, Android wouldn’t have been the same. We take pride in being part of this incredible journey. Since our inception, we have thrived and are now considered one of the best Android app development company. Android OS has a leading market share of over 3/4 of the total market share of all mobile OSs. What made Android famous is its simplistic design, affordability, and being completely open-source. We have experience in everything across Android, to create a perfect experience for our clients.'    
+    ]
+  }
+};
+
+export const servicesios = {
+  overview: {
+    tag: "Reasons to consider",
+    title: "AN iOS APP DEVELOPMENT SOLUTION FOR YOUR BUSINESS",
+    image: "/uploads/2024/12/unnamed.jpg",
+    description: [
+      "The success of Apple is the result of its exemplary user experience, and integrity, across all Apple devices. A good iPhone app development company will ensure the app they create provide a seamless experience across all Apple devices.",
+      "<br>iOS is used in approximately 1/4 of the mobiles in the entire world, but Apple still manages to dominate the profit pool by a huge margin. It’s all about optimization and the user experience, for an Apple user, any mediocre company can provide you with an application that works on an iPhone, but a top iPhone app development company ensures the application they create, is highly optimized, just the way every iPhone user likes."      
+    ]
+  }
+};
+
+
+// Details data 
 
 export const services = [
   {
@@ -309,6 +358,268 @@ export const cmsservices = [
     description:
       "A smart WooCommerce development plan allows you to create a robust e-commerce business at a low cost. With this plugin, you can develop your own online store or convert your existing WordPress website into a sales-driven platform.",
     icon: "/uploads/2024/12/shopify.svg",
+    delay: ".2s",
+  },
+];
+
+export const MEANSTACKDEVELOPMENTservices = [
+  {
+    title: "Build APIs & Websites faster",
+    description:
+      "Our dedicated MEAN STACK developers will help in building websites and customized APIs which play an important role in having the web app customization according to your needs.",
+    icon: "/uploads/2024/12/logo-and-branding.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Build Enterprise Applications",
+    description:
+      "We provide Enterprise level MEAN STACK development services which can help in synchronizing your business in a better manner, improving the productivity by leaps and bounds.",
+    icon: "/uploads/2024/12/service2.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Develop E-commerce Solutions",
+    description:
+      "Our expert developers will build robust & secure E-Commerce web applications for you, so that your business can take advantage of the opportunities across various platforms.",
+    icon: "/uploads/2024/12/service3.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Custom CMS Development",
+    description:
+      "We help you in stacking up towards success by building custom CMS solutions for your business which will prove to be the indispensable growth engines for your business.",
+    icon: "/uploads/2024/12/service4.svg",
+    delay: ".2s",
+  },
+  {
+    title: "ExpressJS Development",
+    description:
+      "Work24 is a that specializes in providing dedicated development teams and smart workspace solutions API development,migration and upgradation services, and maintenance and support sustainable solutions for a better world.",
+    icon: "/uploads/2024/12/service4.svg",
+    delay: ".2s",
+  },
+  {
+    title: "MongoDB Development",
+    description:
+      "Our team specializes in designing and implementing high-performance database architectures that ensure seamless integration, enhanced security, migration from SQL to NoSQL, cloud tailored to meet your business.",
+    icon: "/uploads/2024/12/service5.svg",
+    delay: ".2s",
+  },
+];
+
+
+export const ServiceSectione = {
+  tag: "Services",
+  title: "Our Services",
+  description:
+    "We think big and have hands in all leading technology platforms to provide you wide array of services.",
+};
+
+export const ServiceSectionecommerce = {
+  tag: "We Deliver Our Best",
+  title: "OUR ECOMMERCE DEVELOPMENT SERVICES",
+  description:
+    "As a leading eCommerce website development company, we provide a myriad of services to help your business outshine.",
+};
+
+export const ecommerceservices = [
+  {
+    title: "Payment Gateway Integration",
+    description:
+      "A trusted payment gateway adds to the success of your e-store. We have a wide range of payment gateways to choose from, for both your eCommerce website and mobile app.",
+    icon: "/uploads/2024/12/paymentGateway.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Magento Development",
+    description:
+      "Magento is one of the most popular platforms for eCommerce website development. Our experts can take your project to new heights by unwinding Magento’s true capabilities.",
+    icon: "/uploads/2024/12/magentoDevelopment-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Develop E-commerce Solutions",
+    description:
+      "Our expert developers will build robust & secure E-Commerce web applications for you, so that your business can take advantage of the opportunities across various platforms.",
+    icon: "/uploads/2024/12/logisticsCustomerService-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Logistics & Customer Service",
+    description:
+      "We believe both logistics and customer service are integral parts of an eCommerce platform. We can create integrated portals to take complete care of your customers.",
+    icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Maintenance & Support",
+    description:
+      "Apart from offering development services, our eCommerce developers focus on giving round-the-clock support and maintenance to our clients to avoid the chances of error.",
+    icon: "/uploads/2024/12/eCommerceMobileAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "CMS Integration",
+    description:
+      "At Work24, we have expertise in working with various open-source eCommerce platforms like Magento, WooCommerce, Shopify, and other CMSs to build a fully-functional e-store.",
+    icon: "/uploads/2024/12/CMSIntegration.svg",
+    delay: ".2s",
+  },
+];
+
+export const ServiceSectioneAndroid = {
+  tag: "ANDROID APP",
+  title: "OUR ANDROID APP DEVELOPMENT SERVICES",
+  description:
+    "With years of experience in the industry, we can create the best Android app development solutions for a variety of businesses.",
+};
+
+export const Addroidservices = [
+  {
+    title: "Native Android app development",
+    description:
+      "Native Android app development for those who are looking forward to the absolute best, best performance, best optimization, scaled to be used by millions of users.",
+    icon: "/uploads/2024/12/NativeAndroidAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Cross-platform app development",
+    description:
+      "An app created to run on both platforms, Android and iOS, with a tad bit compromise on the performance, all while saving a lot on the time and cost to develop part.",
+    icon: "/uploads/2024/12/crossPlatformAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "App development in Phases",
+    description:
+      "Have a business master plan? You can leave creating and rolling out your app in phases to us, we will create the basic app components fitted to be rolled out in phases.",
+    icon: "/uploads/2024/12/appDevelopmentPhases.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Testing",
+    description:
+      "Our Android app developers work closely with our quality control team, to make sure that your application is extensively tested before going live on the Play Store.",
+    icon: "/uploads/2024/12/TestingDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Support and maintenance",
+    description:
+      "We offer three months of free of cost support, every bug or crash (if any) will be covered, and solved on top priority, you can also choose to extend this support indefinitely.",
+    icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Enterprise Android solutions",
+    description:
+      "Our team provides fully custom and ready-made enterprise Android app solutions, to make all the online work truly portable and efficient, for all kinds of workplaces.",
+    icon: "/uploads/2024/12/enterpriseAndroidSolutions.svg",
+    delay: ".2s",
+  },
+];
+
+
+export const ServiceSectioneios = {
+  tag: "IOS APP",
+  title: "OUR IOS APP DEVELOPMENT SERVICES",
+  description:
+    "With years of experience in the industry, we can create the best Android app development solutions for a variety of businesses.",
+};
+export const iosservices = [
+  {
+    title: "Native iOS app development",
+    description:
+      "Native iOS app development for those looking forward to the absolute best, best UX, best adaptability, best performance, while app is scaled to be used by millions of users.",
+    icon: "/uploads/2024/12/NativeiOSAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Cross-platform app development",
+    description:
+      "It is a major part of the other Mobile app development services we provide, we can create a high-performance cross platform app, which fits directly in the iOS ecosystem.",
+    icon: "/uploads/2024/12/crossPlatformAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "App development in Phases",
+      description:
+      "Have a business plan which requires app development in phases? You can leave creating and rolling out your app in phases to us, we will fit things right in, in your master plan.",
+    
+    icon: "/uploads/2024/12/TestingDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Testing",
+    description:
+      "Testing and versioning the apps according to new iPhones and fixing bugs is our top priority. We test the all the apps intricately and also provide ninety days of free support.",
+    icon: "/uploads/2024/12/androidService6-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Support and maintenance",
+    description:
+      "We offer a 3-month free of cost support, every bug or crash (if any), will be covered, and solved on top priority. We even have an option to extend this support indefinitely for our customers.",
+    icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Enterprise Android solutions",
+    description:
+      "Our ios developers keep in mind the crucial prerequisites while developing an Enterprise iOS app solution, experience plays a huge part in the Enterprise app development.",
+    icon: "/uploads/2024/12/enterpriseAndroidSolutions.svg",
+    delay: ".2s",
+  },
+];
+
+export const ServiceSectioneINDUSTRIES = {
+  
+  title: "INDUSTRIES WE SERVE",
+  description:
+    "Our developers are experienced in providing advanced WordPress development solutions to multiple businesses, a few of them are listed below",
+};
+export const INDUSTRIESservices = [
+  {
+    title: "EDUCATION",
+    icon: "/uploads/2024/12/education.svg",
+    delay: ".2s",
+  },
+  {
+    title: "HEALTHCARE",
+    icon: "/uploads/2024/12/healthcare-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "ENTERTAINMENT",
+    icon: "/uploads/2024/12/Device_calibration_icon.svg",
+    delay: ".2s",
+  },
+  {
+    title: "BANKING",
+    icon: "/uploads/2024/12/androidService6-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "TRAVEL",
+     icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "TRANSPORT",
+     icon: "/uploads/2024/12/enterpriseAndroidSolutions.svg",
+    delay: ".2s",
+  },
+  {
+    title: "FOOD",
+     icon: "/uploads/2024/12/food.svg",
+    delay: ".2s",
+  },{
+    title: "REAL ESTATE",
+     icon: "/uploads/2024/12/realestae.svg",
+    delay: ".2s",
+  },{
+    title: "DATING",
+     icon: "/uploads/2024/12/dating.svg",
     delay: ".2s",
   },
 ];

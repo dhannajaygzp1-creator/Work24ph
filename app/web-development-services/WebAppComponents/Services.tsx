@@ -3,7 +3,7 @@
 import DOMPurify from "dompurify";
 
 import Image from "next/image";
-import { services } from "@/app/data/services";
+import { services, ServiceSectione, ServiceSectionecommerce } from "@/app/data/services";
 // import DOMPurify from "dompurify";
 type ServiceItem = {
   title: string;
@@ -14,22 +14,24 @@ type ServiceItem = {
 
 type ServicesProps = {
   data?: ServiceItem[];
+  section?: {
+    tag?: string;
+    title?: string;
+    description?: string;
+  };
 };
  
 
-const Services = ({ data = services }: ServicesProps) => {
+const Services = ({ data = services, section = ServiceSectione }: ServicesProps) => {
   return (
     <section className="service-block bg-gradient6 pad-tb">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-12">
             <div className="common-heading ptag">
-              <span>Services </span>
-              <h2>Our Services</h2>
-              <p className="mb30">
-                We think big and have hands in all leading technology platforms to
-                provide you a wide array of services.
-              </p>
+              <span>{section.tag}</span>
+              <h2>{section.title}</h2>
+              <p className="mb30" dangerouslySetInnerHTML={{ __html: section.description as string }} />
             </div>
           </div>
         </div>
@@ -53,7 +55,7 @@ const Services = ({ data = services }: ServicesProps) => {
                 </div>
 
                 <h4>{service.title}</h4>
-                <div dangerouslySetInnerHTML={{ __html: service.description }} />
+               <p dangerouslySetInnerHTML={{ __html: service.description }} />
               </div>
             </div>
           ))}

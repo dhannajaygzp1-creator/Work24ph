@@ -3,9 +3,39 @@
 import Link from "next/link";
 import Image from "next/image";
 import { menuData, contacts, siteAssets } from "../data/siteData";
+import { useState, useEffect } from "react";
+import { IoIosCall } from "react-icons/io";
+import { CiMenuBurger } from "react-icons/ci";
+import { BiMessageAltDetail } from "react-icons/bi";
+
 
 export default function MainHeader() {
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [openIndex, setOpenIndex] = useState(null);
 
+
+  const [showContact, setShowContact] = useState(false);
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (!e.target.closest(".contact-show")) {
+        setShowContact(false);
+      }
+    };
+
+    document.addEventListener("click", handleClickOutside);
+    return () => document.removeEventListener("click", handleClickOutside);
+  }, []);
+
+  const [isSticky, setIsSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsSticky(window.scrollY > 100);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
     <>
@@ -22,7 +52,10 @@ export default function MainHeader() {
       </div> */}
 
       {/* Header */}
-      <header className="nav-bg-b main-header navfix fixed-top menu-white header-pr">
+      <header
+        className={`nav-bg-b main-header navfix menu-white header-pr ${isSticky ? "sticky" : ""
+          }`}
+      >
         <div className="container-fluid m-pad">
           <div className="menu-header">
 
@@ -77,46 +110,59 @@ export default function MainHeader() {
                 ))}
 
                 {/* Contact Icon */}
-                <li className="contact-show">
-                  <a href="#" className="btn-round trngl btn-br bg-btn">
-                    <i className="fas fa-phone-alt"></i>
-                  </a>
+                <li className="contact-show" style={{ padding: "5px" }}>
+                  <button
+                    className="btn-round- trngl btn-br bg-btn"
+                    onClick={() => setShowContact(!showContact)}
+                  >
+                    <IoIosCall size={20} />
+                  </button>
 
-                  <div className="contact-inquiry">
+                  <div className={`contact-inquiry ${showContact ? "active" : ""}`}>
                     <div className="contact-info-">
-                      <div className="contct-heading">Work24 Contacts</div>
+                      <div className="contct-heading">Work24Ph Contacts</div>
 
                       {/* HR */}
                       <div className="inquiry-card-nn hrbg">
                         <div className="title-inq-c">FOR HR DEPARTMENT</div>
                         <ul>
-                          {contacts.hr.map((c, i) => (
-                            <li key={i}>
-                              <a href={`tel:${c.number}`}>
-                                <Image src={c.flag} alt="flag" width={20} height={14} />
-                                {c.number}
-                              </a>
-                            </li>
-                          ))}
+                          <li>
+                            <a href="tel:+639178044284">
+                              <img
+                                src="https://work24ph.com/wp-content/uploads/2024/12/OIP-removebg-preview.png"
+                                alt="HR Flag"
+                                className="flags-size"
+                              />
+                              +639178044284
+                            </a>
+                          </li>
                         </ul>
                       </div>
 
-                      {/* Sales */}
+                      {/* SALES */}
                       <div className="inquiry-card-nn">
                         <div className="title-inq-c">FOR SALES DEPARTMENT</div>
                         <ul>
-                          <li><a href={`tel:${contacts.sales.primary}`}>{contacts.sales.primary}</a></li>
-                          <li><a href={`tel:${contacts.sales.secondary}`}>{contacts.sales.secondary}</a></li>
                           <li>
-                            <i className="fab fa-skype"></i>
-                            <a href={`skype:${contacts.sales.skype}?call`}>
-                              {contacts.sales.skype}
+                            <a href="tel:+639178044284">
+                              <img
+                                src="https://work24ph.com/wp-content/uploads/2024/12/OIP-removebg-preview.png"
+                                alt="Sales Flag"
+                                className="flags-size"
+                              />
+                              +639178044284
                             </a>
                           </li>
+
+                          <li>
+                            <i className="fab fa-skype"></i>
+                            <a href="skype:@work24?call">@work24</a>
+                          </li>
+
                           <li>
                             <i className="fas fa-envelope"></i>
-                            <a href={`mailto:${contacts.sales.email}`}>
-                              {contacts.sales.email}
+                            <a href="mailto:info@work24ph.com">
+                              info@work24ph.com
                             </a>
                           </li>
                         </ul>
@@ -124,6 +170,7 @@ export default function MainHeader() {
                     </div>
                   </div>
                 </li>
+
 
                 {/* CTA */}
                 <li>
@@ -134,9 +181,82 @@ export default function MainHeader() {
 
               </ul>
             </div>
+            <div className="mobile-menu2">
+              <ul className="mob-nav2">
+
+                {/* Message Icon */}
+                <li>
+                  <button
+                    className="btn-round- trngl btn-br bg-btn btshad-b1"
+                    
+                  >
+                    <BiMessageAltDetail size={22} />
+                  </button>
+                </li>
+
+                {/* Burger Menu */}
+                <li className="navm-">
+                  <button
+                    className="toggle"
+                    onClick={() => setMobileOpen(!mobileOpen)}
+                  >
+                    <CiMenuBurger size={26} />
+                  </button>
+                </li>
+
+              </ul>
+            </div>
           </div>
+<nav className={`mobile-nav ${mobileOpen ? "active" : ""}`}>
+          <ul className="mobile-menu-list">
+            {menuData.map((menu, i) => (
+              <li key={i}>
+
+                {/* Main Menu */}
+                <div
+                  className="mobile-menu-item"
+                  onClick={() =>
+                    setOpenIndex(openIndex === i ? null : i)
+                  }
+                >
+                  <Link href={menu.url}>{menu.name}</Link>
+
+                  {menu.dropdown && (
+                    <span>
+                      {openIndex === i ? "−" : "+"}
+                    </span>
+                  )}
+                </div>
+
+                {/* Submenu */}
+                {menu.dropdown && (
+                  <ul
+                    className={`mobile-submenu ${openIndex === i ? "show" : ""
+                      }`}
+                  >
+                    {menu.dropdown.map((sub, j) => (
+                      <li key={j}>
+                        <Link href={sub.url}>{sub.name}</Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+
+              </li>
+            ))}
+          </ul>
+        </nav>
+          
         </div>
+ 
+
+         
+        
+
       </header>
+
+
+
     </>
   );
 }

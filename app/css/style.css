@@ -1,3 +1,5 @@
+
+
 *,
 body {
 	outline: 0
@@ -472,8 +474,11 @@ header .dropdown-menu {
 	-webkit-box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .08);
 	box-shadow: 0 4px 6px 0 rgba(12, 0, 46, .08)
 }
-
+ 
 .main-header {
+	position: relative;
+  width: 100%;
+  transition: all 0.3s ease;
 	padding: 0 20px;
 	height: 85px;
 	z-index: 99999;

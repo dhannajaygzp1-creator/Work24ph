@@ -30,9 +30,9 @@ export const menuData = [
     name: "Mobile App",
     url: "/mobile-app",
     dropdown: [
-      { name: "ANDROID", url: "/android-development" },
-      { name: "IOS", url: "/ios-development" },
-      { name: "CROSS PLATFORM", url: "/CROSS-PLATFORM" },
+      { name: "ANDROID", url: "/android" },
+      { name: "IOS", url: "/ios" },
+      { name: "CROSS PLATFORM", url: "/cross-platform" },
       { name: "PWA Development", url: "/PWA-development" },
          ],
   },
@@ -53,7 +53,7 @@ export const menuData = [
   },
   {
     name: "Rapid App Dev",
-    url: "/rapid-app-dev",
+    url: "https://hanaplatform.com/",
   },
 ];
 

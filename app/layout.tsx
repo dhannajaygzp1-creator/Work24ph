@@ -4,6 +4,7 @@ import "./css/style.css";
 import "./css/responsive.css";
 import "./css/bootstrap.min.css";
 import "./css/plugin.min.css";
+import "./css/custom.css";
 // import "./css/demo-css.css";
 import MainHeader from "./components/MainHeader";
 import { MainFooter } from "./components/MainFooter";

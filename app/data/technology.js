@@ -98,3 +98,64 @@ const technologyData = {
  
      ]
    };
+
+
+
+    export const technologyMEANSTACK = {
+    section: {
+       tag: "Technology",
+       title: "MEAN Stack Development",
+       des:"Hire a Dedicated Developer"
+     },
+     icons: [
+       { src: "/uploads/2024/12/xamarin-icon.webp", alt: "xamarin" },
+       { src: "/uploads/2024/12/Hire-Vue-Js-Developer.webp", alt: "vue" },
+       {src:"/uploads/2024/12/react-js-icon.webp", alt:"react"},
+       { src: "/uploads/2024/12/Hire-Flutter-App-Developer.webp", alt: "flutter" },
+       { src: "/uploads/2024/12/android-icon.webp", alt: "android" },
+      { src: "/uploads/2024/12/Hire-Automation-Tester.webp", alt: "android" },
+       { src: "/uploads/2024/12/angular-js-icon.webp", alt: "angular" },
+       { src: "/uploads/2024/12/Hire-Aurelia-Developer.webp", alt: "aurelia" }
+ 
+     ]
+   };
+
+
+   export const technologyEcommerce = {
+    section: {
+       tag: "Technology",
+       title: "Ecommerce Development",
+       des:"Hire a Dedicated Developer"
+     },
+     icons: [
+       { src: "/uploads/2024/12/xamarin-icon.webp", alt: "xamarin" },
+       { src: "/uploads/2024/12/Hire-Vue-Js-Developer.webp", alt: "vue" },
+       {src:"/uploads/2024/12/react-js-icon.webp", alt:"react"},
+       { src: "/uploads/2024/12/Hire-Flutter-App-Developer.webp", alt: "flutter" },
+       { src: "/uploads/2024/12/android-icon.webp", alt: "android" },
+      { src: "/uploads/2024/12/Hire-Automation-Tester.webp", alt: "android" },
+       { src: "/uploads/2024/12/angular-js-icon.webp", alt: "angular" },
+       { src: "/uploads/2024/12/Hire-Aurelia-Developer.webp", alt: "aurelia" }
+ 
+     ]
+   };
+
+
+   export const technologyAndroid = {
+    section: {
+       tag: "Technology",
+       title: "ANDROID APP SOLUTION",
+       des:"Hire a Dedicated Developer"
+     },
+     icons: [
+       { src: "/uploads/2024/12/xamarin-icon.webp", alt: "xamarin" },
+       { src: "/uploads/2024/12/Hire-Vue-Js-Developer.webp", alt: "vue" },
+       {src:"/uploads/2024/12/react-js-icon.webp", alt:"react"},
+       { src: "/uploads/2024/12/Hire-Flutter-App-Developer.webp", alt: "flutter" },
+       { src: "/uploads/2024/12/android-icon.webp", alt: "android" },
+      { src: "/uploads/2024/12/Hire-Automation-Tester.webp", alt: "android" },
+       { src: "/uploads/2024/12/angular-js-icon.webp", alt: "angular" },
+       { src: "/uploads/2024/12/Hire-Aurelia-Developer.webp", alt: "aurelia" }
+ 
+     ]
+   };

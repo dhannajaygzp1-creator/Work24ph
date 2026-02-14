@@ -1,0 +1,122 @@
+.mobile-nav {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #fff;
+  padding: 30px 20px;
+  transition: 0.3s ease;
+  z-index: 9999;
+  overflow-y: auto;
+}
+
+.mobile-nav.active {
+  right: 0;
+}
+
+.mobile-menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+.mobile-menu-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.mobile-submenu {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.mobile-submenu.show {
+  max-height: 500px;
+}
+
+.mobile-submenu li {
+  padding: 8px 0 8px 15px;
+}
+
+
+
+/* FAQ Button */
+.faq-btn {
+  width: 100%;
+  background: #f9f9f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.faq-btn:hover {
+  background: #f1f5f9;
+}
+
+/* Question text */
+.faq-btn span:first-child {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1e293b;
+}
+
+/* Blue circular icon */
+.faq-icon {
+  width: 36px;
+  height: 36px;
+  background: #19b5e4; /* Blue circle */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect for icon */
+.faq-btn:hover .faq-icon {
+  background: #0ea5e9;
+  transform: rotate(90deg);
+}
+
+
+
+.main-header.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+ 
+
+ 
+
+/* Dropdown */
+ 
+
+.contact-inquiry.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.flags-size {
+  width: 20px;
+  margin-right: 8px;
+}
+
+/* Responsive adjustments menu */
+
