@@ -159,3 +159,50 @@ const technologyData = {
  
      ]
    };
+
+   export const technologyCross = {
+    section: {
+       tag: "Technology",
+       title: "CROSS PLATFORM SOLUTION",
+       des:"Hire a Dedicated Developer"
+     },
+     icons: [
+       { src: "/uploads/2024/12/xamarin-icon.webp", alt: "xamarin" },
+       { src: "/uploads/2024/12/Hire-Vue-Js-Developer.webp", alt: "vue" },
+       {src:"/uploads/2024/12/react-js-icon.webp", alt:"react"},
+       { src: "/uploads/2024/12/Hire-Flutter-App-Developer.webp", alt: "flutter" },
+       { src: "/uploads/2024/12/android-icon.webp", alt: "android" },
+      { src: "/uploads/2024/12/Hire-Automation-Tester.webp", alt: "android" },
+       { src: "/uploads/2024/12/angular-js-icon.webp", alt: "angular" },
+       { src: "/uploads/2024/12/Hire-Aurelia-Developer.webp", alt: "aurelia" }
+ 
+     ]
+   };
+
+   export const technologyhosting = {
+    section: {
+       tag: "Operating Systems, Apps, and Deployment Options for Your Dedicated Server",
+       title: "We Provide Hosting Solutions for a Wide Range of Technologies",
+       des:"Automatically install a wide range of operating systems, administration panels and applications"
+     },
+     icons: [
+       { src: "/uploads/2024/12/Ubuntu-1.svg", alt: "wordpress" },
+       { src: "/uploads/2024/12/Windows.svg", alt: "PowerShel" },
+       { src: "/uploads/2024/12/Centos.svg", alt:"f"},
+       { src: "/uploads/2024/12/plesk.svg", alt: "vb" },
+       { src: "/uploads/2024/12/Cpanel.svg", alt: "sql" },
+       { src: "/uploads/2024/12/Proxmox.svg", alt: "ado" },
+       { src: "/uploads/2024/12/Docker.svg", alt: "aws" },
+       { src: "/uploads/2024/12/Archlinux.svg", alt: "java" },
+       { src: "/uploads/2024/12/Debian.svg", alt: "nodejs" },
+       { src: "/uploads/2024/12/Fedora.svg", alt: "vb" },
+       { src: "/uploads/2024/12/Opensuse.svg", alt: "sql" },
+       { src: "/uploads/2024/12/Rockylinux.svg", alt: "ado" },
+       { src: "/uploads/2024/12/Almalinux.svg", alt: "aws" },
+       { src: "/uploads/2024/12/Freebsd.svg", alt: "java" },
+       { src: "/uploads/2024/12/Ubuntu-1.svg", alt: "nodejs" },
+       { src: "/uploads/2024/12/Lamp.svg", alt: "nodejs" },
+       { src: "/uploads/2024/12/Webmin.svg", alt: "python" }
+ 
+     ]
+   };

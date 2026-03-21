@@ -33,7 +33,7 @@ export const menuData = [
       { name: "ANDROID", url: "/android" },
       { name: "IOS", url: "/ios" },
       { name: "CROSS PLATFORM", url: "/cross-platform" },
-      { name: "PWA Development", url: "/PWA-development" },
+      { name: "PWA Development", url: "/pwa-development" },
          ],
   },
  
@@ -45,7 +45,7 @@ export const menuData = [
     name: "Solutions",
     url: "/solutions",
     dropdown: [
-      { name: "ON DEMAND APP", url: "/ON DEMAND APP" },
+      { name: "ON DEMAND APP", url: "/on-demand-app" },
       { name: "TAXI BOOKING", url: "/TAXI BOOKING" },
       { name: "SCHOOL & COLLEGE MANAGEMENT", url: "/SCHOOL & COLLEGE MANAGEMENT" },
        

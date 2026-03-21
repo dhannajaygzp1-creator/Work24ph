@@ -1,9 +1,10 @@
 export const faqData = [
   {
     id: 0,
-    question: "What processes a top iPhone Application development company like yours’ follow?",
-    answer: `Every project is different, and we have different app development plans for each type of project. It mostly depends upon your requirements and the type of app you are looking forward to, but to give an idea, it is mostly: Requirement gathering -> Feasibility testing -> Making a Blueprint -> Design ~ Development -> Testing -> Delivery.`
+    question: "What processes a top iPhone Application development company like yours follow?",
+    answer: `Every project is different, and we have different app development plans for each type of project. It mostly depends upon your requirements and the type of app you are looking forward to, but to give an idea, it is mostly: Requirement gathering -> Feasibility testing -> Making a Blueprint -> Design ~ Development -> Testing -> Delivery.`,
   },
+   
   {
     id: 1,
     question: "What tools and technologies you use to develop an iPhone app?",
@@ -31,3 +32,30 @@ export const faqData = [
   }
 
 ];
+
+export const faqData2 = [
+  {
+    id: 0, 
+     question: "Can I customize my Dedicated Server? ",
+    answer: `Yes, you can customize the amount of RAM, Storage options, dedicated GPU, NICs, and other hardware like firewalls. For all of our Dedicated Servers, you can purchase these Add-Ons:
+
+            More storage (choose from HDD, SSD, or NVMe SSD) .
+            Dedicated GPUs (we offer GeForce GT 1030, and NVIDIA Tesla A2 and A4 cards).
+            Additional backup options with unlimited traffic.
+            Upgraded NICs. pfSense hardware firewalls.
+            Managed server option (while we specialize in self-managed servers, we offer ad hoc or regular support with managing your server for a fee should you need help).
+            And if you're looking for an even better deal on Dedicated Server hosting, then you should explore our Outlet Servers: they're fixed configuration, discounted Dedicated Servers.`
+
+  },
+  {
+    id: 1, question: "What projects and applications can I use Dedicated Servers for?",
+    answer: `Our customers use our Dedicated Servers for everything from hosting ecommerce websites and game servers to CI/CD toolchains and build servers, along with big data and machine learning applications. Typically, our customers use Dedicated Servers for:
+
+              Production website hosting.
+              Applications that need 100% sustained CPU.
+              Scientific computing.
+              High traffic databases.
+              Distributed or replicated file systems.
+              Big data and data analysis.`
+  },
+]

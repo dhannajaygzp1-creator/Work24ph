@@ -45,6 +45,27 @@ export const servicesFullstack = {
   }
 };
 
+export const servicesHosting = {
+  overview: {
+    tag: "A Trusted Partner Since 2001",
+    title: "Offering reliability, performance, and personalized support you can trust.",
+    image: "/uploads/2024/12/FULL-STACK.png",
+    description: `
+        <p>With over two decades of experience in high-quality, secure web hosting, Raidlayer is the strategic partner for your online journey. We are with you every step of the way.</p>
+       
+       <ul class="list-ul ul-check">
+      <li>Rated 5 stars on both Google and Trustpilot.</li>
+      <li>ISO 27001 Certified.</li>
+      <li>Cyber Essentials Plus Certified.</li>
+      <li>UK / EU GPDR compliant.</li>
+      <li>Global, ISO-certified data centres.</li>
+      <li>Choose a package that suits your needs or get advice from our web hosting experts, available any time of the day or night.</li>
+      </ul>
+        
+        `
+  }
+};
+
 export const servicesCMSDevelopment = {
   overview: {
     tag: "Get Your CMS Ready",
@@ -172,6 +193,33 @@ export const servicesios = {
     description: [
       "The success of Apple is the result of its exemplary user experience, and integrity, across all Apple devices. A good iPhone app development company will ensure the app they create provide a seamless experience across all Apple devices.",
       "<br>iOS is used in approximately 1/4 of the mobiles in the entire world, but Apple still manages to dominate the profit pool by a huge margin. It’s all about optimization and the user experience, for an Apple user, any mediocre company can provide you with an application that works on an iPhone, but a top iPhone app development company ensures the application they create, is highly optimized, just the way every iPhone user likes."      
+    ]
+  }
+};
+
+
+
+export const servicesCROSS = {
+  overview: {
+    tag: "Reasons to consider",
+    title: "CROSS PLATEFORM DEVELOPMENT SERVICES FOR YOUR BUSINESS",
+    image: "/uploads/2024/12/webdev.jpg",
+    description: [
+      "The low development cost and early market entry are two of the most important facts associated with Cross platform app development. The Cross platform apps we create, are so close to Native, your users won’t even notice the slightest bit of difference, neither in performance nor in optimization.",
+      "<br><br>Cross platforms apps could be everything you want them to be if the developer is capable of using Cross platform app development technologies to the fullest. Moreover, since there is just one app, if made through Cross platform frameworks, the maintenance and testing cost reduces significantly too. Because of all these reasons, the majority of the mobile apps we create for small to medium scale businesses are now Cross platform mobile apps.Almost every single time, the time to build Cross platform apps, and the cost to build them, were both significantly lower than developing the same app through Native app development. React Native and Flutter are two of the hottest Cross platform app development technologies, and mostly our top choice when considering Cross platform app development technologies. Like we pointed out above, it works for almost every business, but as your requirements would be unique, we would only decide which app development technology would fit your business when you send in your requirements."      
+    ]
+  }
+};
+
+
+export const servicespwa = {
+  overview: {
+    tag: "Reasons to consider",
+    title: "PROGRESSIVE WEB APP DEVELOPMENT FOR YOUR BUSINESS",
+    image: "/uploads/2024/12/PROGRESSIVE-WEB-APP.jpg",
+    description: [
+      "PWAs are one of the greatest additions to web and mobile web development space, they have already taken over a huge chunk of market dependability in fairly less time. Progressive web apps are really good at passing the hassles of longer wait times of downloading, and installing a native application, while being small in size, ensuring minimum download size and install time.",
+      "<br>As a top progressive web app development company, we ensure that the clients’ demands are completely fulfilled in the PWA solution we create for them. It’s hard to make a list of businesses that can benefit from using PWAs, but in our experience, almost all businesses can benefit on some scale, if they adopt the technology. It has been a hit in both the desktop web department as well as the mobile web department."      
     ]
   }
 };
@@ -620,6 +668,165 @@ export const INDUSTRIESservices = [
   },{
     title: "DATING",
      icon: "/uploads/2024/12/dating.svg",
+    delay: ".2s",
+  },
+];
+
+export const ServiceSectioneCROSS = {
+  tag: "IOS APP",
+  title: "OUR CROSS PLATFORM APP DEVELOPMENT SERVICES",
+  description:
+    "With years of experience in creating various different mobile apps, we ensure your business requirements fit perfectly in the app we create.",
+};
+
+export const ServiceSectioneHosting = {
+  tag: "HOSTING",
+  title: "OUR WEB HOSTING SERVICES",
+  description:
+    "What You Get with Your Dedicated Server",
+};
+export const CROSSservices = [
+  {
+    title: "iOS app development",
+    description:
+      "We use Cross platform development for all types of iOS Cross platform apps, for everyone looking forward to the absolute best, best UX, best UI, and best performance",
+    icon: "/uploads/2024/12/iosDevelopment-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Android app development",
+    description:
+      "Cross platform app development is a major part of our Mobile app development services, we create high-performance Android Cross platform app, suited to your business.",
+    icon: "/uploads/2024/12/NativeAndroidAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "App development in Phases",
+      description:
+      "Planned your app to be rolled out in phases? We are just the Cross platform service providers you were looking for; our app development in phases is one of <BR> a kind.",
+    
+    icon: "/uploads/2024/12/TestingDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Testing",
+    description:
+      "Testing and versioning the apps according to new phones and platforms, and fixing any bugs that appear or may occur, is our top priority, we make sure your app stays on top.",
+    icon: "/uploads/2024/12/androidService6-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Support and maintenance",
+    description:
+      "Free support for 3 months, starting from the day of delivery, is complimentary with each app we create. If you want to, you also get an option to extend <BR> it indefinitely.",
+    icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Enterprise Cross platform",
+    description:
+      "Our Cross platform app developers keep in mind the crucial prerequisites while developing an Enterprise app solution, it ensures usability and productivity to be maximum.",
+    icon: "/uploads/2024/12/enterpriseAndroidSolutions.svg",
+    delay: ".2s",
+  },
+];
+
+
+export const ServiceSectionePWA = {
+  tag: "PWA APP",
+  title: "OUR PROGRESSIVE WEB APP DEVELOPMENT SERVICES",
+  description:
+    "With years of experience in creating various different mobile apps, we ensure your business requirements fit perfectly in the app we create.",
+};
+export const PWAservices = [
+  {
+    title: "PWA migration",
+    description:
+      "We use Cross platform development for all types of iOS Cross platform apps, for everyone looking forward to the absolute best, best UX, best UI, and best performance",
+    icon: "/uploads/2024/12/iosDevelopment-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Android app development",
+    description:
+      "Cross platform app development is a major part of our Mobile app development services, we create high-performance Android Cross platform app, suited to your business.",
+    icon: "/uploads/2024/12/NativeAndroidAppDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "App development in Phases",
+      description:
+      "Planned your app to be rolled out in phases? We are just the Cross platform service providers you were looking for; our app development in phases is one of <BR> a kind.",
+    
+    icon: "/uploads/2024/12/TestingDevelopment.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Testing",
+    description:
+      "Testing and versioning the apps according to new phones and platforms, and fixing any bugs that appear or may occur, is our top priority, we make sure your app stays on top.",
+    icon: "/uploads/2024/12/androidService6-1.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Support and maintenance",
+    description:
+      "Free support for 3 months, starting from the day of delivery, is complimentary with each app we create. If you want to, you also get an option to extend <BR> it indefinitely.",
+    icon: "/uploads/2024/12/supportMaintenance.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Enterprise Cross platform",
+    description:
+      "Our Cross platform app developers keep in mind the crucial prerequisites while developing an Enterprise app solution, it ensures usability and productivity to be maximum.",
+    icon: "/uploads/2024/12/enterpriseAndroidSolutions.svg",
+    delay: ".2s",
+  },
+];
+
+
+export const Hostingservices = [
+  {
+    title: "100% Dedicated Resources",
+    description:
+      "Every resource on our dedicated servers is exclusively yours, ensuring peak performance without sharing. Enjoy uninterrupted CPU access, perfect for latency-sensitive tasks, alongside our cost-efficient, customizable storage solutions.",
+    icon: "/uploads/2024/12/icon_power.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Custom Storage Configurations",
+    description:
+      "Choose from a wide range of HDD, SSD, and NVMe SSD storage options, including Hardware RAID 1 and 10 configurations, tailored for various needs from gaming to complex infrastructures. Our interconnected cloud solutions facilitate easy scaling of your setup.",
+    icon: "/uploads/2024/12/icon_storage-hdd.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Tailored Hardware Solutions",
+      description:
+      "With maximum scalability, adapt your hardware to meet the demands of even the most intensive workloads. While custom configurations may extend setup times, they are designed to deliver optimal performance across applications - worth the wait.",
+    
+    icon: "/uploads/2024/12/icon_flexibility.svg",
+    delay: ".2s",
+  },
+  {
+    title: "IPv4 and IPv6 Addresses",
+    description:
+      "Each server comes with dedicated IPv4 and IPv6 addresses, with options to configure additional IPs to support your growing network demands.",
+    icon: "/uploads/2024/12/icon_network.svg",
+    delay: ".2s",
+  },
+  {
+    title: "DNS and Domain Flexibility",
+    description:
+      "Manage DNS settings easily through our control panel, with options for domain purchasing or transferring, facilitating seamless integration.",
+    icon: "/uploads/2024/12/icon_dns-management.svg",
+    delay: ".2s",
+  },
+  {
+    title: "Always-On DDoS Protection",
+    description:
+      "Our infrastructure is equipped with always-on DDoS mitigation, safeguarding your digital assets against attacks and ensuring uninterrupted operations.",
+    icon: "/uploads/2024/12/icon_ddos-protection.svg",
     delay: ".2s",
   },
 ];

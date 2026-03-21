@@ -50,6 +50,14 @@ export const whyChooseSectionios = {
     "iPhones are a class apart when it comes to phones, iOS application development is used to create native apps that run on the iPhone. The world has widely adapted, and the top spenders loving iPhones and the apps built for them, are two of the most important reasons to plan an iOS app for your business.",
 };
 
+export const whyChooseSectionCROSS = {
+   
+  title: "WHY CROSS PLATFORM MOBILE DEVELOPMENT?",
+  description:
+    "Cross platform app development is a major part of our Mobile app development services, we create high-performance Android Cross platform app, suited to your business.",
+};
+
+
 const whyChoose = [
   {
     title: "Reliable Service. In House Team",
@@ -319,6 +327,46 @@ export const ourbest = [
       title: "Cost-effective",
       description:
         "A potential to be used by millions of users makes iOS apps a highly cost-effective solution.",
+      icon: "/uploads/2024/12/costEffective.svg",
+      delay: ".2s",
+    },
+  ];
+  export const CROSSDevelopment = [
+    {
+      title: "Cost Efficiency",
+      description:
+        "Cross-platform development reduces costs by using one codebase for both Android and iOS applications.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+      delay: ".2s",
+    },
+    {
+      title: "Faster Time to Market",
+      description:
+        "Frameworks like Flutter and React Native enable quicker app development and deployment across multiple platforms.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+        delay: ".2s",
+    }, {
+      title: "Wider Reach",
+      description:
+        "If the Apps published on Google Play Store and Apple App Store reach broader audiences globally. is built right, no other mobile web platform can be compared to its engaging capabilities.",
+      icon: "/uploads/2024/12/Engaging-1.svg",
+      delay: ".2s",
+    }, {
+      title: "Easy Maintenance solution",
+      description:
+        "Cross-platform apps are easier to maintain since updates and fixes are applied once and propagated across all platforms.",
+      icon: "/uploads/2024/12/comprehensiveSolution.svg",
+      delay: ".2s",
+    }, {
+      title: "Consistent Experience",
+      description:
+        "Cross-platform apps provide a consistent user experience across different devices and operating systems.",
+      icon: "/uploads/2024/12/userSatisfaction.svg",
+      delay: ".2s",
+    }, {
+      title: "Strong Community Support",
+      description:
+        "Cross-platform frameworks like Flutter and React Native have large, active communities that provide extensive documentation, tutorials, and support.",
       icon: "/uploads/2024/12/costEffective.svg",
       delay: ".2s",
     },
