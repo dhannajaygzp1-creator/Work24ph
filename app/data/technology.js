@@ -206,3 +206,25 @@ const technologyData = {
  
      ]
    };
+
+
+    export const technologytaxiboking = {
+    section: {
+       tag: "Technology",
+       title: "Emerging Technologies Impacting",
+       
+     },
+     icons: [
+       { src: "/uploads/2024/12/smart-car_13320375.png", alt: "wordpress" },
+       { src: "/uploads/2024/12/connected-car_11470247.png", alt: "PowerShel" },
+       { src: "/uploads/2024/12/17817600.png", alt:"f"},
+       { src: "/uploads/2024/12/9665361.png", alt: "vb" },
+       { src: "/uploads/2024/12/5664359.png", alt: "sql" },
+       { src: "/uploads/2024/12/17232882.png", alt: "ado" },
+       { src: "/uploads/2024/12/2165647.png", alt: "aws" },
+       { src: "/uploads/2024/12/17852611.png", alt: "java" },
+       { src: "/uploads/2024/12/1455349.png", alt: "nodejs" },
+       { src: "/uploads/2024/12/4879917.png", alt: "vb" }
+ 
+     ]
+   };

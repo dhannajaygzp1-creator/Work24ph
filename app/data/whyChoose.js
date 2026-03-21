@@ -50,6 +50,29 @@ export const whyChooseSectionios = {
     "iPhones are a class apart when it comes to phones, iOS application development is used to create native apps that run on the iPhone. The world has widely adapted, and the top spenders loving iPhones and the apps built for them, are two of the most important reasons to plan an iOS app for your business.",
 };
 
+
+export const whyChooseSectionTaxibooking = {
+   
+  title: "Benefits To Book Cab With Us",
+  
+};
+
+
+export const whyChooseSectionSchoolmgt = {
+   
+  title: "Why to Choose Us",
+  description:
+    "Are you ready to elevate your organization to the next level? Look no further than work24ph – your all-in-one solution for seamless and efficient workforce management. Our comprehensive platform is designed to empower leaders, employees, and teams by streamlining complex processes and fostering collaboration.",
+  
+};
+
+
+export const whyChooseSectionOndemand = {
+   
+  title: "Why Choose Work24Ph For On-Demand App Development?",
+  
+};
+
 export const whyChooseSectionCROSS = {
    
   title: "WHY CROSS PLATFORM MOBILE DEVELOPMENT?",
@@ -331,6 +354,42 @@ export const ourbest = [
       delay: ".2s",
     },
   ];
+
+   export const OndemandDevelopment = [
+    {
+      title: "Give your users a fully customized app",
+      description:
+        "Off-the-shelf solutions cater to common business needs but often comes your unique vision and specific operational demands. on-demand app solution provides the flexibility to design and modify features based on business requirements.",
+      icon: "/uploads/2024/12/hugePlatform.svg",
+      delay: ".2s",
+    },
+    {
+      title: "Enjoy ownership of your intellectual property",
+      description:
+        "Work24Ph on demand app development offers you the complete source code - a benefit you don’t get with off-the-shelf products Ease to upgrade with changing market needs, which can be the difference between the success and failure of your on demand business",
+      icon: "/uploads/2024/12/worldNecessity.svg",
+      delay: ".2s",
+    },{
+      title: "Enhance customer experience with personalization",
+      description:
+        "Entirely customized, tested, and validated user interface (UI) helps you to boost your on demand business profits Custom-made UI/UX makes your uber clone app compliant with the modern day challenges",
+      icon: "/uploads/2024/12/comprehensiveSolution.svg",
+      delay: ".2s",
+    }, {
+      title: "Expand With Robust & Scalable Solution",
+      description:
+        "Option to host it at your server gives full command to manage and maintain your on-demand business app You get the flexibility to attract & manage new opportunities arising for your business in the future",
+      icon: "/uploads/2024/12/userSatisfaction.svg",
+      delay: ".2s",
+    }, {
+      title: "Secure Your Business Data",
+      description:
+        "Work24Ph app development ensure that your business data remains intact- which will be else stored (and might be used) with off-the-shelf products Zero data leaks makes your business safer in the longer run",
+      icon: "/uploads/2024/12/costEffective.svg",
+      delay: ".2s",
+    },
+  ];
+
   export const CROSSDevelopment = [
     {
       title: "Cost Efficiency",
@@ -367,6 +426,88 @@ export const ourbest = [
       title: "Strong Community Support",
       description:
         "Cross-platform frameworks like Flutter and React Native have large, active communities that provide extensive documentation, tutorials, and support.",
+      icon: "/uploads/2024/12/costEffective.svg",
+      delay: ".2s",
+    },
+  ];
+
+
+   export const TaxibookingDevelopment = [
+    {
+      title: "10,000+ Routes Covered",
+      description:
+        "We ensure that you can travel to almost any city to city ride seamlessly across India.",
+      icon: "/uploads/2024/12/airport.svg",
+      delay: ".2s",
+    },
+    {
+      title: "100% Full Refund Policy",
+      description:
+        "We offer free cancellation on cab bookings in select cases for your convenience.",
+      icon: "/uploads/2024/12/support.svg",
+      delay: ".2s",
+    }, {
+      title: "24/7 Support",
+      description:
+        "Our dedicated support team is available around the clock to assist you.",
+      icon: "/uploads/2024/12/secure-shield.svg",
+      delay: ".2s",
+    }, {
+      title: "150+ Countries Wordwide",
+      description:
+        "No matter where you travel, Work24Ph provides reliable cab services globally.",
+      icon: "/uploads/2024/12/event.svg",
+      delay: ".2s",
+    }, {
+      title: "Safety",
+      description:
+        "Taxi drivers are responsible for safely navigating through traffic aimed at preventing accidents, hazards, and threats to ensure",
+      icon: "/uploads/2024/12/userSatisfaction.svg",
+      delay: ".2s",
+    }, {
+      title: "Convenience",
+      description:
+        "Taxis can be a convenient way to travel to your destination without the need to wait for public transportation or deal with detours.",
+      icon: "/uploads/2024/12/costEffective.svg",
+      delay: ".2s",
+    },
+  ];
+  export const SchoolmgntDevelopment = [
+    {
+      title: "Effective Communication",
+      description:
+        "Stay connected with your team, clients, and stakeholders like never before. Our communication tools enable seamless interaction across the board. Real-time notifications, project updates, and announcements ensure everyone stays informed and aligned.",
+      icon: "/uploads/2024/12/icon_network.svg",
+      delay: ".2s",
+    },
+    {
+      title: "Streamlined Operations",
+      description:
+        "work24ph automates administrative tasks such as attendance tracking, shift scheduling, performance reporting, and payroll management. This streamlines operations, enabling your team to focus on what truly matters – driving productivity and achieving goals.",
+      icon: "/uploads/2024/12/reason_first-class-support.svg",
+      delay: ".2s",
+    }, {
+      title: "Student-Centric Approach",
+      description:
+        "With work24ph, team members can access resources, assignments, and project updates online, fostering independent productivity. Additionally, managers and stakeholders can monitor progress and stay actively engaged in achieving organizational goals.",
+      icon: "/uploads/2024/12/secure-shield.svg",
+      delay: ".2s",
+    }, {
+      title: "Multi-User Functionality",
+      description:
+        "work24ph offers a multi-user, role-based login system tailored to each team member's responsibilities, ensuring streamlined workflows and preventing overload. This empowers employees and managers to handle tasks and assigned modules with ease and efficiency.",
+      icon: "/uploads/2024/12/event.svg",
+      delay: ".2s",
+    }, {
+      title: "Data-Driven Insights",
+      description:
+        "Make informed decisions with the help of work24ph's powerful reporting and analytics features. Gain insights into team performance, attendance trends, financial metrics, and more. Drive success with our data-driven approach and implement targeted strategies effectively.",
+      icon: "/uploads/2024/12/userSatisfaction.svg",
+      delay: ".2s",
+    }, {
+      title: "Secure and Reliable",
+      description:
+        "At work24ph, we prioritize the security of your data. Our platform employs state-of-the-art encryption and advanced security measures to safeguard your sensitive information. Rest assured, your organization's data is in safe hands.",
       icon: "/uploads/2024/12/costEffective.svg",
       delay: ".2s",
     },

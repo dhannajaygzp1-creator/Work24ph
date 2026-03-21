@@ -223,6 +223,57 @@ export const servicespwa = {
     ]
   }
 };
+export const servicesOndemand = {
+  overview: {
+    title: "Comprehensive Tech Suite For Your On-Demand Business",
+    image: "/uploads/2024/12/download-3.jpeg",
+    description: [
+      `<p>
+        <img src="https://work24ph.com/wp-content/uploads/2024/12/layer-211@2x-300x125.png" />
+        <img src="https://work24ph.com/wp-content/uploads/2024/12/moc1-1-239x300.webp" />
+        <a href="#">On Demand App Development Company</a>
+      </p>`
+    ]
+  }
+};
+
+export const servicesTexiBooking = {
+  overview: {
+    title: "Hassle-Free Cab Booking with Work24Ph",
+    image: "/uploads/2024/12/Free-Cab-Booking-e1735189280909.avif",
+    description: [
+      `<p>
+        Are you tired of the never-ending struggle to book a cab online, especially during unfavorable weather conditions or in emergency situations? Look no further! work24ph is here to provide you with a seamless and convenient solution for all your cab booking needs. As a customer-centric company, we strive to deliver the best services to our Travellers, ensuring a stress-free journey every time.
+        </p>
+        <h4>Unmatched Variety of Cabs and Discounts</h4>
+        <p>
+        At Work24Ph, we believe in providing our customers with a wide selection of cab options to cater to their diverse needs. Our extensive network consists of 4000+ cab operators through different vendors, ensuring you always have a reliable and comfortable mode of transportation available. Choose from a range of categories, including Hatchbacks, sedans, SUVs, and more, depending on your preferences and group size.
+        Moreover, we understand the value of saving money while traveling. That’s why Work24Ph offers discounted rates on taxi services. By booking through our platform, you can enjoy cost-effective cab rides without compromising on quality and reliability.
+        </p>
+        `
+    ]
+  }
+};
+
+
+export const servicesSchoolMgm= {
+  overview: {
+    title: "School & College Management",
+    image: "/uploads/2024/12/freepik__expand__50596.png",
+    description: [
+      `<p>
+        work24ph is a top-tier workforce management platform, recognized as one of the premier solutions for streamlining organizational operations. This comprehensive system is designed to optimize administrative tasks, improve team collaboration, and facilitate seamless communication among stakeholders. Serving as an integrated platform, work24ph revolutionizes how businesses and teams manage their processes. With features tailored to meet the unique needs of organizations, work24ph offers an all-in-one solution for efficient workforce management, making it an indispensable tool for any organization aiming to excel in the modern era.
+        </p><br>
+        <p>
+       Our platform is designed to simplify the complex tasks of managing an organization. With a user-friendly interface, you can easily oversee employee data, attendance, payroll, scheduling, and much more.
+        </p>
+        <br>
+        <p>Trusted by businesses and teams worldwide, work24ph provides a comprehensive suite of tools that streamline administrative processes, enabling you to focus on achieving your goals and driving success.
+        </p>
+        `
+    ]
+  }
+};
 
 
 // Details data 
@@ -830,3 +881,86 @@ export const Hostingservices = [
     delay: ".2s",
   },
 ];
+
+
+export const ServiceSectioneTaxibooking = {
+  title: "What's in it for you",
+  description:
+    "With Work24Ph, you gain flexibility, extra earnings, and comprehensive insurance coverage—all while being in control of your schedule. It's a smart way to maximize your time and income!",
+};
+export const Taxibookingservices = [
+  {
+    title: "largest Bike-Taxi",
+    description:
+      "Join the biggest and most trusted bike-taxi platform. With Work24Ph, you're part of a growing community that’s transforming urban commuting every day!",
+    icon: "/uploads/2024/12/Bike.webp",
+    delay: ".2s",
+  },
+  {
+    title: "Zero Pressure Rides",
+    description:
+      "Drive at your own pace, on your own schedule, without any pressure. With Work24Ph, every ride is on your terms!.",
+    icon: "/uploads/2024/12/Auto.webp",
+    delay: ".2s",
+  },
+  {
+    title: "Insured Rides",
+    description:
+      "Every ride comes with comprehensive insurance coverage, ensuring safety and peace of mind for both Captains and passengers. Ride confidently with Work24Ph!",
+    icon: "/uploads/2024/12/Cab.webp",
+    delay: ".2s",
+  },
+   
+];
+
+
+export const ServiceSectioneSchoolmgnt = {
+  title: "Awesome Features",
+  
+};
+export const Schoolmgntservices = [
+  {
+    title: "Student Management",
+    description:
+      "Get instant access to students's details with an easy search option.",
+    icon: "/uploads/2024/12/student-mangment-system.png",
+    delay: ".2s",
+  },
+  {
+    title: "Staff’s Management System",
+    description:
+      "More effective way to manage teaching or non teaching staff details",
+    icon: "/uploads/2024/12/staff-mangment-system.png",
+    delay: ".2s",
+  },
+  {
+    title: "Fee Management System",
+    description:
+      "Smart fee management module with e-fee payment receipt in parents.",
+    icon: "/uploads/2024/12/fee-managment-system.png",
+    delay: ".2s",
+  },
+  {
+    title: "Smart Attendance Management",
+    description:
+      "No hassle to maintain the paper registers each month, now teachers",
+    icon: "/uploads/2024/12/smart-attendence-mangment.png",
+    delay: ".2s",
+  },
+  {
+    title: "Smart Homework Management",
+    description:
+      "work24ph™ provides smarter way of assigning subject wise homework",
+    icon: "/uploads/2024/12/smart-home-work.png",
+    delay: ".2s",
+  },
+  {
+    title: "Exam & Result Management",
+    description:
+      "Online exam and result management modules make teacher & admin",
+    icon: "/uploads/2024/12/exam-result-manag.png",
+    delay: ".2s",
+  }
+   
+];
+ 

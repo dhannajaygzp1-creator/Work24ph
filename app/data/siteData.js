@@ -46,8 +46,8 @@ export const menuData = [
     url: "/solutions",
     dropdown: [
       { name: "ON DEMAND APP", url: "/on-demand-app" },
-      { name: "TAXI BOOKING", url: "/TAXI BOOKING" },
-      { name: "SCHOOL & COLLEGE MANAGEMENT", url: "/SCHOOL & COLLEGE MANAGEMENT" },
+      { name: "TAXI BOOKING", url: "/taxi-booking" },
+      { name: "SCHOOL & COLLEGE MANAGEMENT", url: "/school-college-management" },
        
          ],
   },

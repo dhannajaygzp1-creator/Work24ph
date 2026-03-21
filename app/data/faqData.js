@@ -59,3 +59,37 @@ export const faqData2 = [
               Big data and data analysis.`
   },
 ]
+
+
+export const TaxibookingFAQ = [
+  {
+    id: 0,  
+    question: "How can I Book a Cab from Work24Ph ?",
+    answer: `To book a cab, you can visit our website, mobile site or mobile app and click on the cab option. Cab booking is available with us in various options. You can book cabs for one way, round trip, airport or railway station transfer, hourly basis or day basis. Intercity cabs are also available with us.`
+  },
+  {
+    id: 1,  
+    question: "What are the payment options available for cab booking?",
+    answer: `We offer multiple payment options for your convenience. You can pay for your cab booking using credit/debit cards, net banking, mobile wallets, or cash on delivery (where applicable).`
+  },
+  {
+    id: 2,  
+    question: "Can I cancel or modify my cab booking?",
+    answer: `Yes, you can cancel or modify your cab booking. The cancellation and modification policies may vary based on the type of booking and the time of cancellation. Please refer to our cancellation policy for more details.`
+  },
+  {
+    id: 3,
+    question: "What if I need to change my pickup or dropoff location?",
+    answer: `You can update your pickup or dropoff location before the cab arrives. Please contact our customer support team for assistance with any changes to your booking.`
+  },
+  {
+    id: 4,
+    question: "What should I Do If I have to Carry a Lot of Luggage during the Journey? ",
+    answer: `During booking the cab, you will have to insure how much luggage you are going to carry. Each cab has its own capacity of carrying luggage. You can see the seating and baggage capacity for the particular car. So, find the right vehicle that goes with your requirements.`
+  },
+  {
+    id: 5,
+    question: "How can I Find the Best Cab Booking Offers & Deals?",
+    answer: `At Work24Ph, we make sure that our customers can book their cab trips at really reasonable rates. We always introduce the best offers and deals to make sure that they travel at the lowest cost with us.`
+  },
+]

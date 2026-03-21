@@ -1,16 +1,13 @@
 import React from 'react'
 import Banner from '../web-development-services/WebAppComponents/Banner';
-import { servicespwa, PWAservices , ServiceSectionePWA, INDUSTRIESservices, ServiceSectioneINDUSTRIES } from '@/app/data/services';
+import { servicesOndemand, INDUSTRIESservices, ServiceSectioneINDUSTRIES } from '@/app/data/services';
 import ServiceSection from '../web-development-services/WebAppComponents/ServiceSection';
- 
-import Services from '../web-development-services/WebAppComponents/Services';
-import FeaturedProjects from '../web-development-services/WebAppComponents/FeaturedProjects';
+
 import CTASection from '../components/HomeComponent/CTASection';
 import { ClientTestimonial } from '../client-reviews/ClientTestimonial';
 import WhyChoose from '../web-development-services/WebAppComponents/WhyChoose';
-import { iOSDevelopment , whyChooseSectionios } from '../data/whyChoose';
-import FaqSection from '../components/FaqSection';
-import { faqData } from '../data/faqData';
+import { OndemandDevelopment , whyChooseSectionOndemand } from '../data/whyChoose';
+
 
 export const page = () => {
     return (
@@ -23,17 +20,12 @@ export const page = () => {
         buttonLink="/contact-us"
       />
       
-      <ServiceSection data={servicespwa.overview} />
+      <ServiceSection data={servicesOndemand.overview} />
      
-      <Services data={PWAservices} section={ServiceSectionePWA}/>
-      <WhyChoose data={iOSDevelopment} section={whyChooseSectionios} />
-      <FeaturedProjects />
-      <Services data={INDUSTRIESservices} section={ServiceSectioneINDUSTRIES}/>
-      <FaqSection
-                    title=" FAQs"
-                    data={faqData}
-                  />
-      <ClientTestimonial/>
+      
+      <WhyChoose data={OndemandDevelopment} section={whyChooseSectionOndemand} />
+ 
+     <ClientTestimonial/>
       <CTASection />
 
 
